@@ -1,0 +1,58 @@
+.TopBar{
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+.tb-logo{
+    height: 60%;
+    margin-top: 20%;;
+}
+.tb-logo2{
+    height: 90%;
+}
+.tb-user-icon{
+    width: 10%;
+    display: inline-block;
+    height: 6vh;
+    text-align: center;
+}
+.tb-logo-div{
+    width: 90%;
+    display: inline-block;
+    height: 6vh;
+    text-align: center;
+    padding-right: 10%;
+}
+.close-div{
+    
+}
+.close{
+    width: 12%;
+    float: left;
+}
+@media only screen and (min-width: 1024px) {
+    .TopBar{
+        display: none;
+    }
+    .TopBarDesktop{
+        z-index: 10001;
+        margin-top: 15%;
+    }
+    .close-div-desktop{
+        width: 20%;
+    }
+    .close-desktop{
+        width: 5%;
+        float: none;
+    }
+    .tb-user-icon-desktop{
+        color: black;
+        
+    }
+    .blk-txt-desktop{
+        color: black;
+        font-weight: 400;
+    }
+}

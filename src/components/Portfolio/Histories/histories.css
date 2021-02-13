@@ -1,0 +1,107 @@
+/*Transfer History*/
+.TransferHistory{
+
+}
+.h-transfer-div{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2.5%;
+}
+.h-transfer-div-left{
+    display: inline-block;
+    width: 50%;
+    padding-top: 2.5%;
+}
+.h-transfer-div-type{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.h-transfer-div-date{
+    font-size: .8rem;
+}
+.h-transfer-div-right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: top;
+    font-size: 1.5rem;
+    padding-top: 2.5%;
+}
+.h-transfer-hr{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+
+/*Trade History*/
+.TradeHistory{
+    
+}
+.h-trade-div{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2.5%;
+}
+.h-trade-div-left{
+    display: inline-block;
+    width: 65%;
+    padding-top: 2.5%;
+}
+.h-trade-div-type{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.h-trade-div-date{
+    font-size: .8rem;
+}
+.h-trade-div-right{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    vertical-align: top;
+    font-size: 1.2rem;
+    padding-top: 2.5%;
+}
+.h-trade-hr{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+
+
+/*WinPayout History*/
+.WinPayoutHistory{
+
+}
+.h-wp-div{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 2.5%;
+}
+.h-wp-div-left{
+    display: inline-block;
+    width: 50%;
+    padding-top: 2.5%;
+}
+.h-wp-div-type{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.h-wp-div-date{
+    font-size: .8rem;
+}
+.h-wp-div-right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: top;
+    font-size: 1.5rem;
+    padding-top: 2.5%;
+}
+.h-wp-hr{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+}

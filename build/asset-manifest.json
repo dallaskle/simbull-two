@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02b8aa67.chunk.css",
+    "main.js": "/static/js/main.9569e601.chunk.js",
+    "main.js.map": "/static/js/main.9569e601.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.812ee88e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.812ee88e.js.map",
+    "static/css/2.d5c34cfd.chunk.css": "/static/css/2.d5c34cfd.chunk.css",
+    "static/js/2.7ba3acb3.chunk.js": "/static/js/2.7ba3acb3.chunk.js",
+    "static/js/2.7ba3acb3.chunk.js.map": "/static/js/2.7ba3acb3.chunk.js.map",
+    "static/js/3.6dd5ad57.chunk.js": "/static/js/3.6dd5ad57.chunk.js",
+    "static/js/3.6dd5ad57.chunk.js.map": "/static/js/3.6dd5ad57.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d5c34cfd.chunk.css.map": "/static/css/2.d5c34cfd.chunk.css.map",
+    "static/css/main.02b8aa67.chunk.css.map": "/static/css/main.02b8aa67.chunk.css.map",
+    "static/js/2.7ba3acb3.chunk.js.LICENSE.txt": "/static/js/2.7ba3acb3.chunk.js.LICENSE.txt",
+    "static/media/Logo-orig.d3bab0f6.png": "/static/media/Logo-orig.d3bab0f6.png",
+    "static/media/Logo1.4265da93.png": "/static/media/Logo1.4265da93.png",
+    "static/media/airball.48b5d911.png": "/static/media/airball.48b5d911.png",
+    "static/media/analysis.028e2a8d.jpg": "/static/media/analysis.028e2a8d.jpg",
+    "static/media/close.81e2a42b.png": "/static/media/close.81e2a42b.png",
+    "static/media/dallas-headshot.58de0ff6.png": "/static/media/dallas-headshot.58de0ff6.png",
+    "static/media/equity.60543c9e.png": "/static/media/equity.60543c9e.png",
+    "static/media/kj-headshot.251e7c9c.png": "/static/media/kj-headshot.251e7c9c.png",
+    "static/media/money.8a8f842a.png": "/static/media/money.8a8f842a.png",
+    "static/media/patton-headshot.f190d7cd.png": "/static/media/patton-headshot.f190d7cd.png",
+    "static/media/portfolio-20201008.8c054dbf.jpeg": "/static/media/portfolio-20201008.8c054dbf.jpeg",
+    "static/media/research.09d680ab.png": "/static/media/research.09d680ab.png",
+    "static/media/styles.css": "/static/media/revicons.e8746a62.woff",
+    "static/media/shootingSports.ef571de7.png": "/static/media/shootingSports.ef571de7.png",
+    "static/media/trades.9d7848e8.jpg": "/static/media/trades.9d7848e8.jpg",
+    "static/media/tradingblock.ec49adbf.jpg": "/static/media/tradingblock.ec49adbf.jpg",
+    "static/media/user.33c53d9a.png": "/static/media/user.33c53d9a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.812ee88e.js",
+    "static/css/2.d5c34cfd.chunk.css",
+    "static/js/2.7ba3acb3.chunk.js",
+    "static/css/main.02b8aa67.chunk.css",
+    "static/js/main.9569e601.chunk.js"
+  ]
+}

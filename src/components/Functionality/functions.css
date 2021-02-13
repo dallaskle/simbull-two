@@ -1,0 +1,194 @@
+.noScroll{margin: 0; height: 100%; overflow: hidden}
+.normal{height: 100%;}
+.no-display{
+    display: none;
+}
+
+.TradePopup{
+    height: 110vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color:white;
+    margin-left: 0vw;
+    padding-top: 3vh;
+    outline: black solid 5px;
+    font-family: 'Roboto Slab', serif;
+    z-index: 101;
+    overflow: auto;
+}
+.SellShare{
+    padding: 5%;
+    padding-bottom: 15vh;
+}
+.fa-times-circle{
+    float: right;
+    font-size: 3rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 4vh;
+    margin-right: 2vw;
+    color: gray;
+}
+.ss-title{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.ss-img{
+    width: 10%;
+}
+.ss-team{
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 1.75rem;
+    text-align: center;
+}
+.ss-team-price{
+    font-weight: 200;
+    font-size: 1.75rem;
+}
+.ss-shares{
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ss-cash{
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+.ss-shareAmt{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 200;
+    
+}
+.ss-shareAmt-underline{
+    text-decoration: underline;
+}
+.ss-share-label{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.fa-undo{
+    position: fixed;
+    left: 0;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 2rem;
+    color: black;
+}
+.ss-btn-div{
+    text-align: right;
+    margin-top: 5%;
+}
+.ss-submit{
+    width: 100%;
+    background-color:  #c5b358;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.ss-btn{
+    width: 33%;
+    font-size: 2rem;
+    background-color: white;
+    border: white solid 1px;
+}
+.ss-btn-2{
+    width: 33%;
+    font-size: 2rem;
+    text-align: center;
+    border: lightgray solid 1px;
+}
+.underline{
+    text-decoration: underline;
+}
+.fa-backspace{
+    color: black;
+    background-color: black;
+    text-align: center;
+}
+
+/* Offers Buttons */
+.offers-overlay{
+    width: 100%;
+}
+.trade-offer-btns-div{
+    width: 100%;
+    background-color: black;
+}
+.trade-offer-btns{
+    width: 100%;
+    background-color: #c5b358;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/* Bid Ask Stuff on Offers */
+.h-bidask{
+    text-align: center;
+    font-size: 0.6rem;
+}
+.h-bid{
+    width: 33%;
+    display: inline-block;
+    text-align: right;
+}
+.h-price{
+    font-weight: 200;
+    font-size: 1.75rem;
+    width: 33%;
+    display: inline-block;
+}
+.h-ask{
+    width: 33%;
+    display: inline-block;
+    text-align: left;
+}
+.h-bid-p{
+    display: inline-block;
+}
+.h-ask-p{
+    display: inline-block;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.gray{
+    color: lightgray;
+}
+
+@media only screen and (min-width: 1024px) {
+    .TradePopup{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .ss-submit{
+        width: 100%;
+        background-color:  #c5b358;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border-radius: 1rem;
+        text-align: center;
+    }
+    .center-function{
+        text-align: center;
+        width: 100%;
+    }
+}

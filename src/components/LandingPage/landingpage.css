@@ -1,0 +1,681 @@
+.nav-logo{
+    height: 5vmax;
+}
+.robo200{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+}
+.robo400{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+.robo900{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+}
+.nav-size{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.nav-drop-size{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.nav-btn{
+    word-wrap: none;
+    min-width: 20%;
+}
+.main-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.main-simbull{
+    font-size: 1.1em;
+}
+.main-under{
+    font-size: .7rem;
+}
+.main-phone-img{
+    max-width: 60%;
+    margin-left: 20%;
+    border-radius: 1rem;
+}
+.signup{
+    margin-top: 4%;
+    padding: 5%;
+    text-align: center;
+}
+.signup-title{
+    padding: 2%;
+    font-size: 1.35rem;
+}
+.signup-input{
+    border-radius: .75rem;
+    
+    margin: 1%;
+    text-align: center;
+}
+.signup-btn{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 0.75rem;
+    margin-top: 2%;
+    background-color: lightgray;
+    color: black
+}
+.signup-hr{
+    background-color: #c5b358;
+    height: 5px;
+}
+.signup-terms2{
+    font-size: .65rem;
+    font-weight: 200;
+}
+.longcopy{
+    padding: 7%;
+    background-color: #c5b358;
+    color: black;
+    
+    background-image: linear-gradient(to bottom right,  #c5b358, #fce77d);
+}
+.lc-body{
+    font-size: 1.3rem;
+
+}
+.lc-body-span{
+    margin-bottom: 3%;
+}
+#gold-triangle{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #ebd772;
+    margin-left: 42.5%;
+}
+#gold-triangle2{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid #c2a92f;
+    margin-left: 42.5%;
+    margin-top: -1%;
+}
+.hiw-title{
+    font-size: 2.1rem;
+    text-align: center;
+    padding-top: 3%;
+}
+.hiw-section{
+    padding: 5%;
+    text-align: center;
+}
+.hiw-head{
+    display: block;
+    font-size: 1.75rem;
+    margin-bottom: 5%;
+}
+.hiw-img{
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.hiw-details{
+    display: block;
+}
+.hiw-desktop{
+    display: none;
+}
+.gold-img{
+    width: 100%;
+}
+.Screens{
+    background-image: linear-gradient(to bottom , #c2a92f, #ffffff);
+}
+.screens-title{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 5%;
+}
+.screens-img{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 1rem;
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.caption{
+    font-size: 1.2rem;
+    color: black;
+    padding: 5%;
+    text-align: center;
+
+}
+.infomercial{
+    padding: 5%;
+}
+.infovideo{
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.reviews{
+    background-image: linear-gradient(to bottom,  white,  #c2a92f);;
+}
+
+.review-card {
+    width: 85%;
+    padding: 2%;
+    margin: 10% 0% 10% 10%;
+    background-color: rgb(253, 253, 253);
+    border-radius: 0.5rem;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+  }
+  .review-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .review-stars {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .review-details {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+.review-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0%;
+}
+
+.seenon-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.logo{
+    width: 33%;
+    -webkit-filter: grayscale(75%);
+    -moz-filter: grayscale(75%);
+    -o-filter: grayscale(75%);
+    -ms-filter: grayscale(75%);
+    filter: grayscale(75%); 
+}
+.seenon{
+    padding: 5% 10% 0% 10%;
+}
+.mobile1{
+    margin-left: 16.5%;
+    margin-top: 3%;
+}
+.mobile2{
+    margin-right: 16%;
+    margin-top: 3%;
+}
+.MakeMoney{
+    padding: 2% 10% 20% 10%;
+}
+.mm-head{
+    font-size: 2rem;
+}
+.sm{
+    font-size: .9rem;
+}
+.md{
+    font-size: 1.25rem;
+}
+
+.FAQs{
+    padding: 12% 0% 22% 0%;
+    text-align: center;
+    color: black
+}
+.f-head{
+    font-size: 2rem;
+    padding: 2%;
+}
+.blk-txt{
+    color: black;
+}
+.f-card{
+    margin-bottom: 2%;
+    z-index: -1;
+}
+.faq-head{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 3%;
+    outline: solid 1px gray;
+}
+.faq-body{
+    padding-bottom: 5%;
+}
+.ContactUs{
+    padding: 2% 10% 10% 10%;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 7vh;
+}
+.c-Head{
+    font-size: 2rem;
+}
+.c-txt{
+
+}
+.c-name{
+
+}
+.c-email{
+
+}
+.c-message{
+
+}
+.c-btn-div{
+    text-align: center;
+}
+.c-btn{
+    border-radius: .8rem;
+}
+.c-input{
+    width: 100%;
+    border-radius: .8rem;
+}
+.OurStory{
+    padding: 2% 10% 10% 10%;
+    font-family: 'Roboto Slab', serif;
+}
+.os-title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.os-body{
+    font-size: 1.1rem;
+}
+.os-img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.os-video{
+    width: 100%;
+    margin-bottom: 15%;
+}
+.os-video-intro{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 3%;
+}
+
+
+.Footer{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    vertical-align: top;
+}
+.f-div1{
+    display: block;
+
+}
+.f-div{
+    display: block;
+    margin-top: 15%;
+}
+.f-img-div{
+
+}
+.f-img{
+    width: 25%;
+}
+.f-div-about{
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.2rem;
+}
+.f-div-address{
+    padding-right: 10%;
+    font-size: 1.2rem;
+}
+.f-div-head{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.f-div-item{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 5%;
+    color: black;
+}
+.f-icon-div{
+
+}
+.f-icon{
+    display: inline-block;
+    margin-right: 5%;
+    padding-top: 5%;
+}
+.fa{
+    font-size: 1.75rem;
+    
+}
+.fa-facebook{
+    color: gray;
+    width: 100%;
+}
+.fa-instagram{
+    color: gray;
+}
+.fa-twitter{
+    color: gray;
+}
+.fa-linkedin{
+    color: gray;
+}
+.f-copyright{
+    text-align: center;
+}
+
+
+.Headshots{
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 10%;
+}
+.h-div{
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 20%;
+}
+.h-img{
+    border-radius: 100rem;
+    width: 100%;
+    
+}
+.h-name{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.h-details{
+    font-weight: 400;
+}
+
+
+
+
+.transition {
+    animation: fadeinout 2s linear 1;
+  }
+  @keyframes fadeinout {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.01;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .NavBar{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .main-title{
+        width: 40%;
+        display: inline-block;
+        margin-left: 15%;
+        text-align: center;
+        vertical-align: top;
+        margin-top: 10%;
+        font-size: 3rem;
+    }
+    .main-car{
+        width: 30%;
+        display: inline-block;
+    }
+    .main-phone-img{
+        width: 100%;
+    }
+    .main-simbull{
+        display: block;
+    }
+    .signup-input{
+        border-radius: .75rem;
+        display: block;
+        margin: 1%;
+        text-align: center;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .signup-btn{
+        width: 30%;
+        margin-left: 35%;
+    }
+    #gold-triangle{
+        width: 0;
+        height: 0;
+        border-left: 55px solid transparent;
+        border-right: 55px solid transparent;
+        border-top: 80px solid #eed971;
+        margin-left: 46.5%;
+    }
+    .lc-body-span{
+        font-size: 2rem;
+    }
+    .hiw-mobile{
+        display: none;
+    }
+    .hiw-desktop{
+        display: initial;
+    }
+    .hiw-section{
+        width: 33%;
+        display: inline-block;
+        padding: 1%;
+    }
+    .hiw-title{
+        font-size: 2.5rem;
+        padding-bottom: 2%;
+    }
+    .hiw-head{
+        display: block;
+        font-size: 1.75rem;
+        margin-bottom: 0%;
+    }
+    .hiw-img{
+        display: block;
+        width: 30%;
+        margin-left: 35%;
+        margin-bottom: 0%;
+    }
+    .hiw-details{
+        display: block;
+        padding-bottom: 10%;
+    }
+    .signup-title{
+        margin-top: 5%;
+    }
+    .signup-btn{
+        margin-bottom: 10%;
+    }
+    
+    .Screens{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .caption{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+        text-align: center;
+        padding: 0%;
+    }
+    .screens-title{
+        padding: 5%;
+        padding-bottom: 0%;
+        font-size: 3rem;
+    }
+    .infovideo{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .review-title{
+        font-size: 2.2rem;
+    }
+    .reviews{
+        padding-bottom: 3%;
+    }
+    #gold-triangle2{
+        width: 0;
+        height: 0;
+        border-left: 55px solid transparent;
+        border-right: 55px solid transparent;
+        border-top: 80px solid #c2a92f;
+        margin-left: 47.5%;
+        margin-top: 0%;
+    }
+    .seenon-title{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .logo{
+        width: 15%;;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+    .mobile1{
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-top: 0%;
+    }
+    .mobile2{
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        margin-top: 0%;
+    }
+    .MakeMoney{
+        padding: 2% 10% 8% 10%;
+    }
+    .FAQs{
+        padding: 5% 15% 2% 15%;
+        text-align: center;
+        color: black
+    }
+    .OurStory{
+        padding: 2% 25% 10% 25%;
+        font-family: 'Roboto Slab', serif;
+        
+    }
+    .os-img{
+        margin-top: 5%;
+        width: 30%;
+        margin-left: 35%;
+    }
+
+
+    .Footer{
+        font-family: 'Roboto Slab', serif;
+        padding-left: 15%;
+        padding-right: 15%;
+        vertical-align: top;
+    }
+    .f-div1{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+    }
+    .f-div{
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+        margin-top: 0%;
+    }
+    .f-img-div{
+    
+    }
+    .f-img{
+        width: 25%;
+    }
+    .f-div-about{
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 1.2rem;
+    }
+    .f-div-address{
+        padding-right: 10%;
+        font-size: 1.2rem;
+    }
+    .f-div-head{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .f-div-item{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-top: 5%;
+    }
+    .f-icon-div{
+    
+    }
+    .f-icon{
+        display: inline-block;
+        margin-right: 2%;
+    }
+    .fa{
+        font-size: 1.75rem;
+        
+    }
+    .fa-facebook{
+        color: gray;
+        width: 100%;
+    }
+    .fa-instagram{
+        color: gray;
+    }
+    .fa-twitter{
+        color: gray;
+    }
+    .fa-linkedin{
+        color: gray;
+    }
+    .f-copyright{
+        text-align: center;
+    }
+
+    .h-div{
+        width: 23%;
+        display: inline-block;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%
+    }
+
+}

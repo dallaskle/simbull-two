@@ -1,0 +1,281 @@
+.desktopOnly{
+    display: none;
+}
+.Holdings{
+    background-color: rgb(237, 237, 237);
+    min-height: 100vh;
+    padding-bottom: 8.5vh;
+    padding-top: 6vh;
+    font-family: 'Roboto Slab', serif;
+}
+.Bar{
+    width: 100%;
+    min-height: 8.5vh;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    outline: #c5b358 1px solid;
+    z-index: 100;
+    
+}
+.Bar-div{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-size: 100%;
+    height: 100%;
+
+    color: gray;
+}
+.bar-selected{
+    background-color: darkgray;
+}
+.bar-white{
+    color: white;
+}
+.Bar-img{
+    width: 30%;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+.desktopOnly-Account{
+    display: none;
+}
+.sm-txt{
+    text-align: center;
+}
+.holdings-offers-div{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 3%;
+}
+.waiting-img{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+.fa-times-circle{
+    z-index: 100;
+}
+
+/*OpenOffers*/
+.holdings-offers-team-div{
+    width: 100%;
+    margin-bottom: 1%;
+    padding: 3%;
+    background-color: white;
+    
+}
+.holdings-offers-team-right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.holdings-offers-team-name{
+    display: inline-block;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.holdings-offers-team-btn{
+    border-radius: 1rem;
+    box-shadow: .75px 1.5px .75px 1.5px #afafaf;
+}
+.holdings-offers-team-info{
+    margin-right: 3%;
+}
+.offers-blue-bid{
+    background-color: rgb(85, 139, 255);
+    border-radius: .5rem;
+    padding: 1%;
+    margin-right: 1%;
+    color: white;
+    font-weight: 400;
+}
+.offers-orange-ask{
+    background-color: orange;
+    border-radius: .5rem;
+    padding: 1%;
+    margin-right: 1%;
+    color: white;
+    font-weight: 400;
+}
+.blk-txt{
+    color: black;
+    font-weight: 600;
+}
+
+.Portfolio-Team-Name{
+    text-align: center;
+    width: 100%;
+}
+.Bar-Logo{
+    display: none;
+}
+
+/* Holdings Menu Bar */
+.TBmenu-holdings{
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 1%;
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+.fa-filter{
+    width: 10vw;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
+.black{
+    color: black;
+}
+div.scrollmenu-holdings {
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+div.scrollmenu-holdings span {
+    display: inline-block;
+    text-align: center;
+    padding: 1% 2% 1% 2%;
+    text-decoration: none;
+    width: 30vw;
+}
+  
+div.scrollmenu-holdings span:hover {
+    background-color: #777;
+    color: white;
+}
+.selected{
+    background-color: #777;
+    color: white;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.h-menu-item{
+    width: 20%;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .Bar{
+        width: 100%;
+        min-height: 10vh;
+        background-color: white;
+        outline: #c5b358 1px solid;
+        z-index: 100;
+        position: relative;   
+        padding-left: 10%;
+        font-family: 'Roboto Slab', serif;
+        position: sticky;
+        padding-top: 0%;
+        margin-top: 0%;
+        vertical-align: top;
+        position: -webkit-sticky;
+        top: 0;
+        bottom: 100;
+        vertical-align: top;
+    }
+    .Bar-div{
+        width: 15%;
+        font-size: 1.35rem;
+        color: black;
+        text-align: center;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .desktopOnly{
+        width: 15%;
+        font-size: 1.25rem;
+        color: black;
+        text-align: center;
+        margin-top: 0%;
+        display: initial;
+    }
+    .desktopOnly-Account{
+        display: inline-block;
+    }
+    .simbull-txt{
+        color: #c5b358;
+        font-weight: 200;
+        font-size: 1.25rem;
+        width: 50%;
+        display: inline-block;
+        text-align: left;
+    }
+    .Bar-desktop{
+        width: 100%;
+        height: 8.5vh;
+        background-color: white;
+        outline: #c5b358 1px solid;
+        z-index: 100;
+        position: relative;   
+        padding-left: 10%;
+        font-family: 'Roboto Slab', serif;
+        position: sticky;
+        padding-top: 0%;
+        margin-top: 0%;
+        vertical-align: top;
+    }
+    .Bar-div-desktop{
+        width: 15%;
+        font-size: 2rem;
+        color: black;
+        text-align: center;
+        padding-top: -10%;
+        margin-top: 0%;
+        display: inline-block
+    }
+    .center{
+        text-align: center;
+        width: 10%;
+        padding-bottom: 1%;
+        color: black;
+    }
+    .Bar-Logo{
+        width: 50%;
+        padding-bottom: 1%;
+        display: inline-block;
+    }
+    .Bar-img{
+        display: none;
+        padding-top: 0%;
+        width: 0%;
+        height: 0%;
+        padding-left: 0%;
+    }
+    .Holdings{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .holdings-offers-team-div{
+        width: 31%;
+        margin-left: 1%;
+        margin-right: 1%;
+        display: inline-block;
+    }
+    .bar-selected{
+        text-decoration: underline;
+        background-color: white;
+    }
+    div.scrollmenu-holdings span {
+        display: inline-block;
+        text-align: center;
+        padding: 1% 2% 1% 2%;
+        text-decoration: none;
+        width: 24vw;
+    }
+}

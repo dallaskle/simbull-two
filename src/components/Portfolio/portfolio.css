@@ -1,0 +1,345 @@
+.PTotal{
+    padding: 3%;
+    padding-top: 7vh;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 0%;
+}
+.p-total-txt{
+    display: inline-block;
+    width: 60%;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.p-total-amt{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 900;
+} 
+.p-total-txt2{
+    display: inline-block;
+    width: 60%;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.p-total-amt2{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 400;
+} 
+.p-total-account{
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+}
+.p-total-hr{
+    width:20%;
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.p-total-value{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    color:  #c5b358;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2.5px 2.5px #d1d1d1;
+}
+.p-total-cash{
+    text-align: center;
+    font-weight: 200;
+}
+.p-total-cash-amt{
+    color:  #c5b358;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.p-graph{
+    width: 100%;
+    
+}
+.p-graph-return{
+    color: #c5b358;
+    padding-left: 3%;
+}
+.p-graph-top{
+    width: 94%;
+}
+.PReturn{
+    padding: 3%;
+    font-family: 'Roboto Slab', serif;
+}
+.p-return-txt{
+    display: inline-block;
+    width: 60%;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.p-return-amt{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 400;
+} 
+.p-return-txt2{
+    display: inline-block;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.p-return-amt2{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 400;
+} 
+.PTransfer{
+    padding: 3%;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 0%;
+}
+.p-transfer-txt{
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.p-transfer-amt{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+} 
+.transfer-btn{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 1rem;
+    background-color:rgb(187, 187, 187);
+    font-size: 1.1rem;
+    padding: 1%;
+    box-shadow: 2.5px 2.5px #d1d1d1;
+}
+.p-transfer-hr{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+
+/*PHistory*/
+.PHistory{
+    padding: 3%;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 20%;
+    padding-top: 0%;
+}
+.p-history{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+}
+.p-selected{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.gray-back{
+    background-color: rgb(237, 237, 237);
+    padding-left: -3%;
+    padding-right: -3%;
+}
+.p-history-title{
+    display: inline-block;
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.p-history-icon-div{
+    display: inline-block;
+    width: 10%;
+}
+.p-history-hr{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*PPayout*/
+.PPayout{
+    margin-top: 5%;
+    font-family: 'Roboto Slab', serif;
+}
+.p-payouts-div{
+    text-align: center;
+    margin-top: 5%;
+}
+.p-payouts-btn{
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    width: 100%;
+    background-color: #c5b358;
+    box-shadow: 2.5px 2.5px  2.5px 2.5px #d1d1d1;
+}
+
+
+/*Collect Payouts*/
+.CollectPayouts{
+    background-color: rgb(237, 237, 237);
+    z-index: 10000;
+    width: 85vw;
+    height: 80vh;
+    margin-left: 3.75vh;
+    margin-top: 7.5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
+    padding: 3%;
+    font-family: 'Roboto Slab', serif;
+    overflow-y: scroll;
+}
+.cp-close{
+    text-align: right;
+}
+.cp-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+.cp-title-num{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 200;
+}
+.cp-card-holder{
+    padding: 3%;
+    padding-top: 10%;
+    min-height: 30vh;
+}
+.cp-card-left{
+    display: inline-block;
+    width: 85%;
+}
+.cp-card-date{
+    font-size: 0.75rem;
+}
+.cp-card-right{
+    display: inline-block;
+    width: 15%;
+}
+.cp-card-total{
+    padding: 1.5%;
+    font-weight: 900;
+}
+.cp-card-total-left{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.cp-card-total-right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.cp-card-total-hr{
+    background-color: black;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+}
+.align-bottom{
+    
+}
+.cp-question-div{
+    padding: 3%;
+}
+.cp-question{
+    font-weight: 600;
+}
+.cp-answers{
+    padding: 3%;
+}
+.cp-answers-input{
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    padding: 10px;
+}
+.cp-answers-txt{
+    padding-left: 5%;
+}
+.cp-card-btn-div{
+    text-align: center;
+}
+.cp-card-btn{
+    border-radius: 1rem;
+    font-size: 1rem;
+    width: 75%;
+    background-color: #c5b358;
+    box-shadow: 2.5px 2.5px #d1d1d1;
+    padding: 2% 5% 2% 5%;
+}
+
+/*Colors*/
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+/* Bonus */
+.Bonus{
+
+}
+.bonus-btn{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: #c5b358;
+}
+.collect-bonus-div{
+    text-align: center;
+    width: 100%;
+}
+.collect-bonus-btn{
+    width: 80%;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: #c5b358;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Portfolio{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .CollectPayouts{
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
+    .cp-close{
+        margin-right: 27%;
+        text-align: center;
+    }
+    .fa-times-circle{
+        margin-right: 27%;
+        margin-top: 5%;
+    }
+}

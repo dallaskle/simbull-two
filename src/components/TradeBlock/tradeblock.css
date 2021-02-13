@@ -1,0 +1,739 @@
+.TradeBlock{
+    padding-top: 6vh;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(237, 237, 237);
+    padding-bottom: 8.5vh;
+}
+.tbn-btn{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.TBmenu{
+    font-size: 1.25rem;
+    color: black;
+
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+.fa-filter{
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
+.black{
+    color: black;
+}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+div.scrollmenu span {
+    display: inline-block;
+    text-align: center;
+    padding: 7% 2% 1% 2%;
+    text-decoration: none;
+}
+  
+div.scrollmenu span:hover {
+    background-color: #777;
+    color: white;
+}
+.selected{
+    background-color: #777;
+    color: white;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.TBtrades{
+    background-color: rgb(237, 237, 237);
+    padding-top: 2%;
+}
+.tb-filter-div{
+    width: 100%;
+}
+.tb-filter-div-btn{
+    width:35%;
+    border-radius: 1rem;
+    margin-left: 2.5%;
+    margin-right: 0%;
+    padding: 1% 3% 1% 3%;
+}
+.tb-filter-div-btn-all{
+    width:20%;
+    border-radius: 1rem;
+    margin-left: 2.5%;
+    margin-right: 0%;
+    padding: 1% 3% 1% 3%;
+}
+.tb-filter-btn-selected{
+    background-color: gray;
+    color: white
+}
+.tb-t-div{
+    background-color: white;
+    margin: 3% 5% 5% 5%;
+}
+.tb-t-title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tb-t-day{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.tb-t-hr{
+    display: inline-block;
+    width: 25%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+}
+.tb-t-amt{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -5%;
+    padding-bottom: 5%;
+}
+.TBoffers{
+    margin: 0% 0% 0% 0%;
+    background-color: rgb(237, 237, 237);
+}
+.tb-o-div-left{
+    background-color: white;
+    margin: 5% 0% 5% 5%;
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 5%;
+}
+.tb-o-div-right{
+    background-color:white;
+    margin: 5% 5% 5% 0%;
+    display: inline-block;
+    width: 45%;
+    padding-bottom: 5%;
+}
+.TBtradeCard{
+    background-color: white;
+    margin-top: 1%;
+
+}
+.tb-tc-name{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.tb-tc-name2{
+    display: inline-block;
+    width: 20%;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.tb-tc-info{
+    width: 65%;
+    display: inline-block;
+    vertical-align: bottom;
+    padding-right: 3%;
+}
+.tb-tc-percent-per{
+    font-size: 1.1rem;
+    text-align: right;
+    color: green;
+}
+.color-price{
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: .3rem;
+}
+.green-back{
+    background-color: green;
+}
+.red-back{
+    background-color: red;
+}
+.tb-tc-date2{
+    font-size: .8rem;
+    text-align: right;
+}
+.tb-o-date{
+    font-size: .6rem;
+    text-align: right;
+}
+.tb-tc-img-div{
+    display: inline-block;
+    width: 15%;
+    padding: 2%;
+}
+.tb-tc-img{
+    width: 100%;
+}
+.tb-tc-price{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.tb-tc-percent{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.tb-tc-before{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: .8rem;
+}
+.tb-tc-offerprice{
+    font-size: 1.1rem;
+    text-align: right;
+    margin-top: 1%;
+}
+.black-white{
+    color: white;
+    border-radius: .3rem;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.ask-back{
+    background-color: orange;
+}
+.bid-back{
+    background-color: rgb(85, 139, 255);
+}
+.tb-tc-current{
+    font-size: 0.8rem;
+    text-align: right;
+}
+.tb-tc-sm{
+    font-size: .6rem;
+}
+.tb-tc-date{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: .8rem;
+}
+.tb-tc-type{
+    text-align: center;
+    font-size: .6rem;
+}
+.tb-cards{
+    background-color: rgb(237, 237, 237);
+    margin-top: 1%;
+}
+.TBnfl{
+    background-color: rgb(237, 237, 237);
+    margin-top: 1%;
+}
+.TBnba{
+    background-color: rgb(237, 237, 237);
+    margin-top: 1%;
+}
+.tb-sort-div{
+    padding: 0% 3% 3% 3%;
+}
+.tb-sort-div-item{
+    width: 100%;
+}
+.tb-sort-div-left{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    
+}
+.tb-sort-div-right{
+    display: inline-block;
+    width: 80%;
+    padding-left: 5%;
+}
+.tb-sort-div-btn{
+    border-radius: 1rem;
+    margin: 2%;
+    font-size: .8rem;
+    padding: 1% 3% 1% 3%;
+    box-shadow: 1px 2px 1px 2px #afafaf;
+}
+.tb-sort-btn-selected{
+    background-color: gray;
+    color: white;
+}
+.tb-cash-div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+/*Trading Block Team Expand */
+.TBteamExpand{
+
+}
+.tbte-expand-graph{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1em;;
+}
+.tbte-hr{
+    width: 80%;
+}
+.tbte-offers-div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.tbte-offers-div-sub{
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    text-align: center;
+}
+.tbte-offers-name{
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 0.6rem;
+}
+.tbte-offers-item{
+    font-size: 0.6rem;
+}
+.tbte-function-div{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.tbte-function-btn{
+    border-radius: 0.6rem;
+    width: 28%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #c5b358;
+    box-shadow: 1px 2px 2px 2px #afafaf;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.tbte-position-div{
+    margin-bottom: 3%;
+}
+.tbte-position-title{
+    font-weight: 600;
+}
+.tbte-position-item{
+    display: inline-block;
+    width: 50%;
+    font-size: .6rem;
+}
+.tbte-p-name{
+    display: block;
+    text-decoration: underline;
+    color: gray;
+}
+.tbte-p-span{
+    display: block;
+    padding-bottom: 3%;
+}
+.tbte-return-div{
+    margin-bottom: 3%;
+}
+.tbte-return-item{
+    display: inline-block;
+    width: 50%;
+    font-size: .6rem;
+}
+.tbte-return-amt{
+    display: inline-block;
+    width: 50%;
+    font-size: .6rem;
+    text-align: right;
+}
+.tbte-return-hr{
+    margin: 0%;
+    padding: 0%;
+}
+.tbte-stats-div{
+    padding-bottom: 3%;
+}
+.tbte-stats-title{
+    font-weight: 600;
+}
+.tbte-stats-item{
+    font-size: .6rem;
+    display: inline-block;
+    width: 50%;
+}
+.tbte-stats-name{
+    display: inline-block;
+    width: 60%;
+}
+.tbte-stats-amt{
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+}
+.tbte-stats-hr{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/*TBteamCard*/
+.TBteamCard{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1.25%;
+    font-family: 'Roboto Slab', serif;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.tbtc-left{
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 2%;
+    color: black;
+}
+.tbtc-name{
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+.tbtc-name2{
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    vertical-align: top;
+    margin-top: 10%;
+}
+.tbtc-record{
+    text-align: center;
+}
+.tbtc-img-div{
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.tbtc-img{
+    width: 50%;
+}
+.tbtc-img-bigger{
+    width: 75%;
+}
+.tbtc-middle{
+    display: inline-block;
+    width: 50%;
+    color: black;
+}
+.tbtc-top{
+    vertical-align: top;
+}
+.tbtc-bottom{
+    vertical-align: bottom;
+}
+.tbtc-shares{
+    text-align: center;
+    font-size: .75rem;
+}
+.tbtc-graph{
+    text-align: center;
+}
+.tbtc-right{
+    display: inline-block;
+    width: 25%;
+    vertical-align: bottom;
+    padding-bottom: 2%;
+    color: black;
+}
+.tbtc-price-div{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.tbtc-price{
+    font-size: 1.3rem;
+    font-weight: 900;
+    background-color: black;
+    border-radius: .3rem;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.tbtc-price-change{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    font-size: .8rem;
+    display: block;
+    margin-top: -2%;
+    font-weight: 400;
+    color: green;
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+#green-triangle{
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 10px solid green;
+}
+.tbtc-bidask{
+    text-align: center;
+    font-size: .9em;
+}
+.tbtc-bid{
+    width: 50%;
+    display: inline-block;
+}
+.tbtc-ask{
+    width: 50%;
+    display: inline-block;
+}
+.tbtc-bid-p{
+    width: 50%;
+    display: inline-block;
+}
+.tbtc-ask-p{
+    width: 50%;
+    display: inline-block;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.gray{
+    color: lightgray;
+}
+
+/*TB Team Card 2 */
+.tbtc2-bottom{
+    text-align: center;
+    font-size: .7rem;
+}
+.tbtc2-top{
+
+}
+.tbtc2-left{
+    display: inline-block;
+    width: 10%;
+    
+}
+.tbtc2-middle{
+    display: inline-block;
+    width: 50%;
+}
+.tbtc2-middleright{
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+}
+.tbtc2-right{
+    display: inline-block;
+    width: 25%;
+}
+.tbtc2-img-div{
+    width: 33%;
+    text-align: center;
+    display: inline;
+}
+.tbtc2-img{
+    width: 100%;
+}
+.tbtc2-name{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 900;
+    display: inline;
+    color: black;
+}
+.tbtc2-price-div{
+    text-align: center;
+    display: inline;
+    height: 100%;
+}
+.tbtc2-price{
+    font-size: .9em;
+    font-weight: 900;
+    background-color: black;
+    border-radius: .3rem;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    height: 100%;
+
+}
+.tbte2-position-div{
+    margin-bottom: 1%;
+    text-align: center;
+}
+.t-menu-item{
+    width: 20%;
+}
+
+@media only screen and (min-width: 768px) {
+    .black{
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .TradeBlock{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .tb-cash-div{
+        position: relative;
+        font-size: 1.5rem;
+    }
+    .black{
+        width: 20%;
+        text-align: center;
+        padding-top: 0%;
+        margin-top: 0%;
+    }
+    .TBtradeCard{
+        width: 32%;
+        display: inline-block;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .TBteamCard{
+        width: 32%;
+        display: inline-block;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .tb-sort-div{
+        padding: 0% 3% 3% 3%;
+    }
+    .tb-sort-div-item{
+        width: 100%;
+    }
+    .tb-sort-div-left{
+        display: inline-block;
+        width: 38%;
+        text-align: right;
+        
+    }
+    .tb-sort-div-right{
+        display: inline-block;
+        width: 62%;
+        padding-left: 5%;
+    }
+    .tb-sort-div-btn{
+        border-radius: 1rem;
+        margin: 1%;
+        font-size: .8rem;
+        padding: 1% 3% 1% 3%;
+        box-shadow: 1px 2px 1px 2px #afafaf;
+    }
+    .tb-sort-btn-selected{
+        background-color: gray;
+        color: white;
+    }
+    div.scrollmenu span {
+        display: inline-block;
+        text-align: center;
+        padding: 1% 2% 1% 2%;
+        text-decoration: none;
+    }
+
+    .tb-t-div{
+        background-color: white;
+        margin: 0%;
+        margin-top: 1%;
+    }
+    .tb-o-div-left{
+        background-color: white;
+        margin: 1% 1% 1% 1%;
+        display: inline-block;
+        width: 48%;
+        padding-bottom: 1%;
+    }
+    .tb-o-div-right{
+        background-color:white;
+        margin: 1% 1% 1% 0%;
+        display: inline-block;
+        width: 48%;
+        padding-bottom: 1%;
+    }
+    .tbtc2-name{
+        font-size: .8em;
+        text-align: center;
+        font-weight: 900;
+        display: inline;
+        color: black;
+    }
+    .tbtc2-price-div{
+        text-align: center;
+        display: inline;
+        height: 100%;
+    }
+    .tbtc2-price{
+        font-size: .67em;
+        font-weight: 900;
+        background-color: black;
+        border-radius: .3rem;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        height: 100%;
+    
+    }
+    .tb-tc-name2{
+        font-size: .9em;
+    }
+    .tb-tc-percent-per{
+        font-size: 0.65rem;
+        text-align: right;
+        color: green;
+    }
+
+    .tb-tc-offerprice{
+        font-size: 0.65em;
+        text-align: right;
+        margin-top: 1%;
+    }
+    .tb-tc-current{
+        font-size: .65em;
+    }
+    .tbtc-bidask{
+        font-size: .55em;
+    }
+    .tb-tc-date2{
+        font-size: .55em;
+    }
+    .tb-tc-info{
+        vertical-align: middle;
+    }
+}
